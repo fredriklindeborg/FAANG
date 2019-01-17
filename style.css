@@ -1,0 +1,126 @@
+h1 {
+  color: black;
+  font-family: 'Arvo', serif;
+}
+
+h1{
+font-size: 40px;
+font-style: italic;
+}
+
+h3{
+font-size: 25px;
+font-family: 'Arvo', serif;
+font-weight: 800;
+color: #494949;
+margin: 0 10px;
+}
+
+
+h4{
+font-size: 20px;
+font-family: 'Arvo', serif;
+font-weight: 800;
+color: #494949;
+margin: 15px;
+}
+
+
+body {
+  background-color: white;
+}
+
+p {
+  font-family: arial;
+}
+
+.datum {
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: 800;
+  color: #494949;
+}
+
+
+.header {
+  text-align: center;
+  border: 4px;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+}
+
+.outer2 {
+  display: flex;
+  justify-content: center;
+}
+
+.senaste {
+  border-left: 0px solid #d3d3d3;
+  border-right: 0px solid #d3d3d3;
+  border-radius: 0px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  width: 400px;
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+.senaste img {
+  border: 0px solid #dfdfdf;
+  padding: 4px;
+  margin-right: 10px;
+  height: 75px;
+}
+
+.perforetag {
+    border: 0px solid #d3d3d3;
+    border-radius: 0px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ffffff;
+    width: 400px;
+    box-shadow: 0px 0px 10px #ffffff;
+  }
+
+
+  .perforetag img {
+    border: 1px solid #dfdfdf;
+    padding: 4px;
+    margin-right: 10px;
+    height: 35px;
+
+}
+.nyhet {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: #ececec;
+
+  }
+
+.nyhet p {
+  padding-left: 5px;
+
+}
+
+}
+
+.nyhet p2 {
+padding-left: 5px;
+
+}
+
+
+.rubrik {
+  width: 100%;
+  margin: 4px;
+
+}
+
+.puffbild {
+  width: 100%;
+
+}
