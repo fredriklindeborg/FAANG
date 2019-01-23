@@ -67,14 +67,11 @@ max-width: 100%;
   font-family: Arial;
 }
 
-.meny p{
-  font-family: Arial;
-  margin: 15px;
-}
 
-.link{
-  font-family: Arial;
+
+.link {
   margin: 15px;
+  font-size: 20px;
 }
 
 .outer {
