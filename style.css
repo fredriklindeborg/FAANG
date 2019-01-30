@@ -42,11 +42,25 @@ p {
 .datum {
   font-size: 12px;
   font-family: "Arial black";
-  font-weight: 800;
   color: #c5131a;
   margin-top: 0px;
 }
 
+.lasmer{
+  font-size: 12px;
+  font-family: "Arial";
+  color: white;
+  background-color: #74a184;
+  padding: 7px;
+  display: inline;
+  margin-left: auto;
+
+
+}
+
+.lasmer:hover{
+  text-decoration: underline;
+}
 
 .header {
   text-align: center;
@@ -104,8 +118,13 @@ a:hover {
 
 .datumrubrik {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.datumrubrik p {
+  width: 100%;
+}
 
 
 .senaste {
@@ -116,13 +135,14 @@ a:hover {
   background-color: #f7f7f7;
   width: 45%;
   box-shadow: 0px 0px 0px #ffffff;
+
 }
 
 .senaste img {
   border: 0px solid #dfdfdf;
   margin-right: 10px;
-  max-width: 100px;
   align-self: center;
+  width: 100%;
 }
 
 .perforetag {
@@ -137,14 +157,16 @@ a:hover {
 
 .nyhet {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     background-color: #fff;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     border-left: 1px solid #fff;
-    border-right: 1px solid #fff;    text-decoration: none;
+    border-right: 1px solid #fff;
+    text-decoration: none;
     color: black;
     align-self: center;
   }
@@ -166,6 +188,15 @@ a:hover {
 padding-left: 5px;
 
 }
+
+
+.kalla {
+  font-size: 12px;
+  font-family: "Arial";
+  color: grey;
+
+}
+
 
 .perforetag:last-child {
   border-right: 1px solid #d3d3d3;

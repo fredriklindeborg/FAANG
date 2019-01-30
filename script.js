@@ -16,9 +16,10 @@ let receivedNews = (newsData) => {
 
       <img src="${article.urlToImage}" alt="image" onerror="this.style.display='none'">
       <div class="datumrubrik">
-      <p>Från ${article.source.name}</p>
+      <p class="kalla">Från ${article.source.name}</p>
       <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
         <p>${article.title}</p>
+        <div class="lasmer">Läs mer »</div>
         </div>
       </a>`
 
@@ -60,9 +61,10 @@ fetch(url)
 
       <img src="${article.urlToImage}" alt="image">
       <div class="datumrubrik">
-      <p>Från ${article.source.name}</p>
+      <p class="kalla">Från ${article.source.name}</p>
       <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
         <p>${article.title}</p>
+        <div class="lasmer">Läs mer »</div>
         </div>
       </a>`
     })
@@ -108,9 +110,10 @@ fetch(url)
         `<a class="nyhet" href="${article.url}">
 
         <div class="datumrubrik">
-        <p>Från ${article.source.name}</p>
+        <p class="kalla">Från ${article.source.name}</p>
         <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
           <p>${article.title}</p>
+          <div class="lasmer">Läs mer »</div>
           </div>
         </a>`
       })
@@ -160,9 +163,10 @@ fetch(url)
           `<a class="nyhet" href="${article.url}">
 
           <div class="datumrubrik">
-          <p>Från ${article.source.name}</p>
+          <p class="kalla">Från ${article.source.name}</p>
           <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
             <p>${article.title}</p>
+            <div class="lasmer">Läs mer »</div>
             </div>
           </a>`
         })
@@ -201,9 +205,10 @@ fetch(url)
             `<a class="nyhet" href="${article.url}">
 
             <div class="datumrubrik">
-            <p>Från ${article.source.name}</p>
+            <p class="kalla">Från ${article.source.name}</p>
             <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
               <p>${article.title}</p>
+              <div class="lasmer">Läs mer »</div>
               </div>
             </a>`
           })
@@ -244,9 +249,10 @@ fetch(url)
               `<a class="nyhet" href="${article.url}">
 
               <div class="datumrubrik">
-              <p>Från ${article.source.name}</p>
+              <p class="kalla">Från ${article.source.name}</p>
               <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
                 <p>${article.title}</p>
+                <div class="lasmer">Läs mer »</div>
                 </div>
               </a>`
             })
@@ -280,9 +286,10 @@ fetch(url)
                 `<a class="nyhet" href="${article.url}">
 
                 <div class="datumrubrik">
-                <p>Från ${article.source.name}</p>
+                <p class="kalla">Från ${article.source.name}</p>
                 <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
                   <p>${article.title}</p>
+                  <div class="lasmer">Läs mer »</div>
                   </div>
                 </a>`
               })
