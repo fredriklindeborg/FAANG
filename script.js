@@ -14,7 +14,7 @@ let receivedNews = (newsData) => {
     document.querySelector(".allNews").innerHTML +=
       `<a class="nyhet" href="${article.url}">
 
-      <img src="${article.urlToImage}" alt="image">
+      <img src="${article.urlToImage}" alt="image" onerror="this.style.display='none'">
       <div class="datumrubrik">
       <p>Från ${article.source.name}</p>
       <p class="datum">Publicerad ${moment(article.publishedAt).format("DD MMM YYYY")}</p>
