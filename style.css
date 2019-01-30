@@ -149,10 +149,8 @@ a:hover {
 
   .nyhet:hover {
     text-decoration: none;
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
+    color: white;
+    background-color: #f8f8f8;
 }
 
 .nyhet p {
